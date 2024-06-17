@@ -1,0 +1,84 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+}
+.img-container {
+  display: flex;
+  justify-content: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.slider {
+  position: relative;
+  width: 800px;
+  height: 450px;
+}
+.prev-btn {
+}
+.next-btn {
+}
+
+.slider .img-id {
+  position: absolute;
+  z-index: 55;
+  background: #474646;
+  padding: 7px;
+  border-radius: 6px;
+  color: white;
+  top: 20px;
+  left: 20px;
+}
+.slider img {
+  max-width: 100%;
+  opacity: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.slider img.active {
+  opacity: 1;
+}
+button {
+  background-color: #2c3943;
+  width: 64px;
+  writing-mode: vertical-lr;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+  color: #f8f0d9;
+}
+
+button:not(:disabled):hover {
+  opacity: 0.7;
+}
+button:disabled {
+  cursor: no-drop;
+  opacity: 0.7;
+}
+.thumbnail-container {
+  display: grid;
+  width: 800px;
+  margin: auto;
+}
+.thumbnail-container img {
+  max-width: 100%;
+  cursor: pointer;
+  opacity: 0.4;
+  transition: 0.3s;
+}
+.thumbnail-container img:hover,
+.thumbnail-container img.active {
+  opacity: 1;
+}
