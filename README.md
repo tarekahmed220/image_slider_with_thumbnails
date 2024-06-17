@@ -1,7 +1,7 @@
 # image_slider_with_thumbnails
 
 ## Description
-The ImageSlider App is a simple web application, The app is built using Vanilla JavaScript, HTML, CSS, and js
+The ImageSlider App is a simple web application, The app is built using Vanilla JavaScript, HTML, and CSS.
 
 ## Getting Started
 
